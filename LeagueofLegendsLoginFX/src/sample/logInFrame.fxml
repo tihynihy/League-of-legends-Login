@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black; -fx-border-color: gold;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="404.0" fitWidth="682.0" layoutX="-287.0" layoutY="-2.0" opacity="0.48" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/accountWallpaper.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="302.0" prefHeight="400.0" prefWidth="298.0" style="-fx-background-color: #7A0996; -fx-border-color: gold;">
+         <children>
+            <ImageView fitHeight="99.0" fitWidth="169.0" layoutX="65.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/mainLogo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="35.0" layoutY="159.0" style="-fx-text-fill: gold;" text="Username">
+               <font>
+                  <Font name="Berlin Sans FB" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="246.0" style="-fx-text-fill: gold;" text="Password">
+               <font>
+                  <Font name="Berlin Sans FB" size="21.0" />
+               </font>
+            </Label>
+            <TextField layoutX="35.0" layoutY="193.0" prefHeight="26.0" prefWidth="169.0" promptText="ex: LoneWolf222" style="-fx-background-color: white; -fx-border-color: gold; -fx-border-style: bold;">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </TextField>
+            <PasswordField layoutX="35.0" layoutY="280.0" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: white; -fx-border-color: gold;" />
+            <Hyperlink layoutX="35.0" layoutY="336.0" style="-fx-text-fill: gold;" text="Forgot password ?" visited="true">
+               <font>
+                  <Font name="MS Outlook" size="12.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="35.0" layoutY="366.0" style="-fx-text-fill: gold;" text="FAQ" visited="true">
+               <font>
+                  <Font name="MS Outlook" size="12.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </Pane>
+      <ImageView fitHeight="45.0" fitWidth="35.0" layoutX="23.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
